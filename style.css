@@ -54,7 +54,7 @@ input{
     font-size: 2rem;
     display: inline-block;
 } 
-form ion-icon{
+form search-button .ion-icon{
     width: 8%;
     font-size: 3rem;
     margin-bottom: -8px;
