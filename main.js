@@ -45,3 +45,6 @@ searchForm.addEventListener("submit", (e) => {
     })
     searchResultDiv.innerHTML = generatedHTML;
   }
+ document.querySelector('.search-button').addEventListener('click', function() {
+    document.querySelector('.search-result').focus();
+});
